@@ -1,0 +1,2 @@
+docker create --name postgres-demo -e POSGRES_PASSWORD=Welcome -p 5432:5432 postgres:11.5-alpine
+
